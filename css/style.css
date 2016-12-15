@@ -5571,34 +5571,64 @@ tbody.collapse.in {
 }
 
 .brand-image{
-  position:abosolute;
-  width: 45%;
+  width: 55%;
   height:auto;
 }
 
 @media screen and (max-width: 700px) {
   .brand-image {
+    position: absolute;
     width:10%;
     height: auto;
     visibility: hidden;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 700px) and (max-width: 870px) {
   .brand-image {
-    margin-top: 5px;
-    width:25%;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 45%;
+    width:15%;
     height: auto;
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1200px) {
+@media screen and (min-width: 870px) and (max-width: 1050px) {
   .brand-image {
-    width:30%;
+    position: absolute;
+    width:12%;
     height: auto;
+    margin-top: -14px;
+    margin-left: 45%;
   }
 }
-
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+  .brand-image {
+    position: absolute;
+    width:11%;
+    height: auto;
+    margin-top: -17px;
+    margin-left: 45%;
+  }
+}
+@media screen and (min-width: 1150px) and (max-width: 1550px) {
+  .brand-image {
+    position: absolute;
+    width:10%;
+    height: auto;
+    margin-top: -17px;
+    margin-left: 45%;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1950px) {
+  .brand-image {
+    position: absolute;
+    width:50%;
+    height: auto;
+    margin-left: 25%;
+  }
+}
 
 .navbar-brand:hover,
 .navbar-brand:focus {
