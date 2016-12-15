@@ -5594,7 +5594,7 @@ tbody.collapse.in {
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
   .brand-image {
-    width:30%;
+    width:20%;
     height: auto;
   }
 }
@@ -22193,7 +22193,7 @@ a.material-icons-shopping_cart:hover {
 
 .rd-navbar-fullwidth .rd-navbar-search-toggle {
   right: 50%;
-  margin-right: -20.125rem;
+  margin-right: -21.125rem;
   font-size: 1.1875rem;
   top: 75%;
   color: #000;
