@@ -5570,6 +5570,36 @@ tbody.collapse.in {
   height: 50px;
 }
 
+.brand-image{
+  position:abosolute;
+  width: 45%;
+  height:auto;
+}
+
+@media screen and (max-width: 700px) {
+  .brand-image {
+    width:10%;
+    height: auto;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .brand-image {
+    margin-top: 5px;
+    width:25%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .brand-image {
+    width:30%;
+    height: auto;
+  }
+}
+
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -20975,7 +21005,7 @@ a.icon-primary:hover {
 
 .rd-navbar-brand .brand-name {
   text-transform: uppercase;
-  font-size: 1.125rem;
+  font-size: 0.125rem;
   line-height: 1.2;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
