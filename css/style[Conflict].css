@@ -1727,7 +1727,7 @@ mark,
 }
 
 .font-title-h2 {
-    font-size: 1.6em;
+    font-size: 2em;
     text-shadow: 0px 1px #bdbdbd;
 }
 
@@ -1912,7 +1912,7 @@ ol li a {
   }
   .font-title-h2 {
     font-size: 1.3em;
-    margin-top: 25px;
+    margin-top: 13px;
     }
 
 }
