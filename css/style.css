@@ -284,6 +284,10 @@ a, button, input {
   transition: .3s all ease;
 }
 
+.quote-padding{
+    padding: 10px ;
+    padding-bottom: 15px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
