@@ -1730,9 +1730,11 @@ mark,
   color: rgba(0, 0, 0, 0.7);
 }
 
-.font-title-h2 {
-    font-size: 1.5em;
-    text-shadow: 0px 1px #bdbdbd;
+.font-shadow {
+    text-shadow: 2px 3px #A0A0A0;
+}
+.font-spam{
+  font-size: 1.9vw;
 }
 
 .bg-primary {
@@ -2038,7 +2040,7 @@ blockquote.quote p {
 blockquote.quote p:before {
   content: '';
   position: absolute;
-  width: 2.1875rem;
+  width: 3rem;
   height: 1.625rem;
   background-image: url("../images/q-left.png");
   background-repeat: no-repeat;
@@ -2051,7 +2053,7 @@ blockquote.quote p:before {
 blockquote.quote p:after {
   content: '';
   position: absolute;
-  width: 2.1875rem;
+  width: 3rem;
   height: 1.625rem;
   background-image: url("../images/q-right.png");
   background-repeat: no-repeat;
@@ -16005,7 +16007,7 @@ p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
 }
 
 .bg-image-1 {
-  background-image: url(../images/about-1.jpg);
+  background-image: url(../images/apples_farm_dark.jpg);
 }
 
 .bg-image-1, .bg-image-1 h1, .bg-image-1 h2, .bg-image-1 h3, .bg-image-1 h4, .bg-image-1 h5, .bg-image-1 h6, .bg-image-1 .heading-1, .bg-image-1 .heading-2, .bg-image-1 .heading-3, .bg-image-1 .heading-4, .bg-image-1 .heading-5, .bg-image-1 .heading-6 {
